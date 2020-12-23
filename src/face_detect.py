@@ -1,5 +1,4 @@
-import json, os
-import requests
+import json, os, requests
 
 #from verify_face import Face_verify
 def Config():
