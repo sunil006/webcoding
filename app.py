@@ -74,7 +74,3 @@ def compile():
     r = requests.post(RUN_URL, data=data)
     out=r.json()
     return out 
-
-
-if __name__=="__main__":
-    app.run(debug=True, port=5000)
