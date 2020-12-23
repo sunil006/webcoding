@@ -1,6 +1,5 @@
 import json, os, requests
-import cv2
-import math,time
+
 #from verify_face import Face_verify
 def Config():
     subscription_key ='df1da1e0cc834b5890a4b608724a5b46'
