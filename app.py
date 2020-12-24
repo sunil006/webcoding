@@ -57,7 +57,7 @@ def run():
 
 @app.route('/compile',methods=['GET','POST'])
 def compile():
-    RUN_URL = u'http://api.hackerearth.com/code/compile/'
+    RUN_URL = u'https://api.hackerearth.com/v3/code/compile/'
     CLIENT_SECRET = '2b1517da6ee40243600253315a90b8fbe9d4896f'
     
     source = request.form['code']
